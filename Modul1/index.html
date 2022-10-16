@@ -1,12 +1,178 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
 </head>
+<style>
+    /*Bikin kotak paling atas*/
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 20px;
+        background-color: rgb(215, 215, 215);
+
+    }
+    /*Supaya bisa urut ke kanan*/
+    .navbars{
+        display: flex;
+    }
+    .navbars li{
+        /*Ngilangin titik list*/
+        list-style: none;
+        /* ngasih spasi antar kata*/
+        padding: 0 20px;
+    }
+    .dividetext{
+
+        text-align: justify;
+        line-height: 35px;
+        -webkit-columns: 250px 2;
+        -moz-columns: 250px 2;
+        columns: 250px 2;
+        -webkit-column-gap: 40px;
+        -moz-column-gap: 40px;
+        column-gap: 40px;
+        font-size: larger;
+        padding: 90px 70px;
+        background-color: rgb(240, 240, 240);
+    }
+
+</style>
 <body>
+    <div class="header">
+        <img src="./logo-ead.png" alt="" width="80px">
+        
+        <ul class="navbars">r
+            <li><a href="">Tentang Kami</a></li>
+            <li><a href="">Lokasi</a></li>
+            <li><a href="">Mobil</a></li>
+            <li><a href="">Reservasi</a></li>
+        </ul>
+
+
+    </div>
+    <div class="jumbotron" style="text-align: center;">
+        <center>
+        
+            <h1>Reservasi EAD</h1>
+            <div class="embed-responsive embed-responsive-16by9" style="height: 450px; width: 650px;">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AwMeQJ_u73I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </center>
+        <h1 align="center">Lokasi Kami</h1>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.2515176723105!2d107.62876171447317!3d-6.9796205702859275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9a5704fc057%3A0xdf1685b7deee7417!2sJl.%20Sukabirus%2C%20Citeureup%2C%20Kec.%20Dayeuhkolot%2C%20Kabupaten%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1665851475679!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <br>
+        <br>
+                <h1 class="display-10">Reservasi Kendaraan EAD</h1>
+                <p class="lead">Reservasi Kendaraan EAD adalah penyedia jasa rental mobil EAD.</p>
+            </div>
+        </section>
     
+        <section id="tentangkami">
+            <h1 align="center">Tentang Kami</h1>
+            <div class="dividetext">
+                <p>EAD menawarkan jasa rental mobil dengan kondisi kendaraan yang terawat dan supir yang ramah dan handal demi kenyamanan anda. Kami hadir untuk memberikan jasa layanan sewa mobil
+                    Solusi yang diberikan untuk membantu pelanggan korporat meningkatkan efisiensi transportasi bisnisnya, membuat mereka mampu berkonsentrasi pada bisnis inti. Kebutuhan kendaraan jangka pendek yang aman dan selalu mengutamakan kenyamanan anda.
+                </p>
+                <p>
+                    EAD menawarkan beragam layanan dan jenis kendaraan mobil yang dapat disesuaikan dengan kebutuhan Anda, mulai dari sewa kendaraan jangka pendek dan panjang untuk keperluan operasional bisnis hingga sewa mobil harian dengan pengemudi maupun lepas kunci untuk kebutuhan pribadi.
+                            EAD menggunakan armada mobil keluaran baru, dengan kondisi terawat untuk disewakan kepada Anda. Pilihan mobil yang kami sediakan sangat variatif dan harga yang sangat kompetitif.
+                </p>
+            </div>
+        </section>
+        <br>
+        <section id="Layanan">
+            <div class="jumbotron" style="margin-top: 30px;">
+                <h2 style="text-align: center;">Jenis Mobil EAD</h2><br>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="mobil alphard.jpg" class="card-img-top" alt="Mobil 1 ">
+                            <div class="card-body">
+                                <h5 class="card-title"><center>Mobil Alphard</h5>
+                                <p class="card-text">Untuk jalan-jalan bersama keluarga</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="mobil camry.jpeg" class="card-img-top" alt="Mobil 2">
+                            <div class="card-body">
+                                <h5 class="card-title"><center>Mobil Camry</h5>
+                                <p class="card-text">Untuk kencan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="mobil jazz.jpg" class="card-img-top" alt="Mobil 3">
+                            <div class="card-body">
+                                <h5 class="card-title"><center>Mobil jazz</h5>
+                                <p class="card-text">city car murah</p>
+
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="mobil wuling.jpeg" class="card-img-top" alt="Mobil 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title"><center>Mobil wuling</h5>
+                                        <p class="card-text">Mobil biar keren</p>
+
+                            <section id="regris">
+                                <center>
+                                    <div class="Regristasi">
+                                        <h2 style="text-align:center;">Registrasi</h2><br/>
+                                        <form action="" class="form">
+                                            <p class="p">
+                                                <label for="nama" class="label">Nama</label>
+                                                <input name="nama" value="" id="input-nama" type="text" class="input">
+                                            </p>
+                                            <br/>
+                                            <p class="p">
+                                                <label for="jenis-test" class="label">Jenis Kelamin</label>
+                                                <select name="jenis-test" id="dropdown" class="input">
+                                                            <option value="PCR">Laki-Laki</option>
+                                                            <option value="Rapid Test">Perempuan</option>
+                                                        </select>
+                                            </p>
+                                            <br/>
+                                            <p class="p">
+                                                <label for="no-hp" class="label">Nomor HP</label>
+                                                <input name="no-hp" value="" id="input-hp" type="text" class="input">
+                                            </p>
+                                            <br/>
+                                            <br/>
+                                            <p class="p">
+                                                <label for="Jenis-Test" class="label">Jenis Mobil</label>
+                                                <select name="Jenis-Test" id="dropdown" class="input">
+                                                            <option value="Alphard">Alphard</option>
+                                                            <option value="Jazz">Jazz</option>
+                                                            <option value="Camry">Camry</option>
+                                                            <option value="Wuling">Wuling</option>
+                                                        </select>
+                                                        <br>
+                                                        <br>
+                                            <p class="p">
+                                                <label for="Keperluan" class="label">Keperluan sewa</label>
+                                                <textarea name="Keperluan sewa" value="" id="input" type="text" class="input"></textarea>
+                                            </p>
+                                            </p>
+                                            <br/>
+                                            <p class="p">
+                                                <input type="submit" name="buttoninput" id="input" value="SUBMIT">
+                                            </p>
+                                        </form>
+                                    </div>
+                                </center>
+                            </section>
+                        </body>
+                        <footer >Adhisty Tiara Salsabila 1202204087</footer>
+        
+
 </body>
+
 </html>
